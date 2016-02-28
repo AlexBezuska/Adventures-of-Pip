@@ -1,0 +1,82 @@
+{
+	"main": [{
+		"id": 0,
+		"name": "camera",
+		"camera": true,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"matchCanvasSize": true
+	}, {
+		"id": 1,
+		"name": "player",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": 267,
+			"height": 290
+		},
+		"velocity": {
+			"x": 0,
+			"y": 0
+		},
+		"playerController2d": {
+			"up": "up",
+			"down": "down",
+			"left": "left",
+			"right": "right"
+		},
+		"movement2d": {
+			"upMax": -0.5,
+			"downMax": 0.5,
+			"leftMax": -0.5,
+			"rightMax": 0.5,
+			"upAccel": -0.02,
+			"downAccel": 0.02,
+			"leftAccel": -0.02,
+			"rightAccel": 0.02
+		},
+		"friction": {
+			"x": 0.97,
+			"y": 0.97
+		},
+		"animation": {
+			"time": 0,
+			"frame": 0,
+			"loop": true,
+			"speed": 1,
+			"name": "pip-walk-f15"
+		},
+		"matchCenterX": {
+				"id": 0
+			}
+	},
+	{
+		"id": 2,
+		"name": "globe",
+		"globe": true,
+		"position": {
+			"x": 0,
+			"y": 230
+		},
+		"zindex": {
+			"zindex": -1
+		},
+		"size": {
+			"width": 1394,
+			"height": 1394
+		},
+		"rotation":{
+			"angle": 0
+		},
+		"image": {
+			"name": "globe"
+		},
+		"matchCenterX": {
+				"id": 0
+			}
+	}]
+}

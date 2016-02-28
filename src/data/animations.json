@@ -1,0 +1,15 @@
+{
+	"pip-walk-f15": [{
+	"filmstripFrames": 15,
+	"time": 75,
+	"properties": {
+	  "image": {
+		"name": "pip-walk-f15.png",
+		"sourceX": 0,
+		"sourceY": 0,
+		"sourceWidth": 4005,
+		"sourceHeight": 290
+	  }
+	}
+  }]
+}
